@@ -9,7 +9,7 @@ describe("App Component", () => {
     const element = screen.getByText("React Framework");
     expect(element).toBeInTheDocument();
     expect(element).toHaveClass(
-      "w-full h-screen flex items-center justify-center text-lg"
+      "w-full h-screen flex items-center justify-center bg-light"
     );
   });
 });
