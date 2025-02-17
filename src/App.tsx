@@ -1,9 +1,7 @@
 import { ChangeEvent, useState } from "react";
 import {
   NonCompoundInput,
-  NonCompoundInputProps,
   CompoundInput,
-  CompoundInputProps,
   Fieldset,
   Label,
   ErrorMessage,
