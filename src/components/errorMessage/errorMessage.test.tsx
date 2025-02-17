@@ -9,7 +9,7 @@ describe("ErrorMessage component", () => {
     const element = screen.getByRole("alert");
     expect(element).toBeInTheDocument();
     expect(element.nodeName).toBe("SPAN");
-    expect(element).toHaveClass("w-full flex text-sm text-error pt-2");
+    expect(element).toHaveClass("w-full h-5 flex text-xs text-error pt-1");
   });
   it("render", () => {
     const textError = "this is a error";
@@ -17,6 +17,6 @@ describe("ErrorMessage component", () => {
     const element = screen.getByText(textError);
     expect(element).toBeInTheDocument();
     expect(element.nodeName).toBe("SPAN");
-    expect(element).toHaveClass("w-full flex text-sm text-error pt-2");
+    expect(element).toHaveClass("w-full h-5 flex text-xs text-error pt-1");
   });
 });
